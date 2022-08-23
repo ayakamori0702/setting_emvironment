@@ -105,6 +105,20 @@ docker-testディレクトリにカレントディレクトリをうつしてコ
     
 `$ docker-compose up -d`  
 
+できないとき
+```
+Stopping docker-test_anaconda_1 ... done
+```  
+`docker-compose up --build`  
+試してみる
+
+- Windowsでブラウザにキャッシュされてしまう場合あり
+```
+このサイトは安全に接続できません。
+```
+`http://localhost:8888/?asdfasjfhsidfhasi`  
+のように適当なquery stringをつけてアクセス  
+  
 
 <span style="color: pink; ">まとめ</span>  
 docker imageをそのまま使いたい場合は、docker Hubから持ってくると楽。
